@@ -45,5 +45,5 @@ You will see tables like this in the notebook:
 
 # TODO
 
-* put properties to map
+* put properties to a map --> create heatmap
 * create model to estimate prices
