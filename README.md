@@ -1,28 +1,31 @@
 # Context
 
-Scraper and data for Funda.nl
+In this repository you can find:
 
+* Scripts for scraping Funda.nl
+* Data scraped from Funda.nl
 
+![](data/../img/funda_landing_page.png)
 
-This data was scraped from Funda.nl and contains house and apartment related data (e.g price and location).
-See some of the column descriptions later below.
+The data was scraped from Funda.nl and contains house and apartment related data (e.g price and location, etc. See some of the columns descriptions later below).
 
-# You can find tabular data in the following path: data/data_clean.csv
+# You can find the tabular data in the following path: 'data/data_clean.csv'
 
-Some column description
+Some column description:
+
 * 'address' : Street + house number
 * 'postcode_city' : Postcode + City string
-* 'postcode' : Only postoce
+* 'postcode' : Only postcode
 * 'city' : Location of the property on a city level
 * 'ad_link' : Link which was used to scrape the data
-* 'addownloaddate_time' : Date time of
-* 'Asking price' : Current price of the propery
+* 'add_download_date_time' : Date time of
+* 'Asking price' : Current price of the property
 * 'Original asking price' : Original price of the property
 * 'price' : cleaned asking price
 * 'sqm_price': livingArea / price
-* 'livingArea' : square meter size of the propery
+* 'livingArea' : square meter size of the property
 * 'Plot size' : the plot size of the property
-* 'htype' : apartment or house based on the 'adlink'
+* 'h_type' : apartment or house based on the 'ad_link' column
 * 'Type apartment' : apartment type
 * 'Number of stories' : how many stories a given property has
 
@@ -32,9 +35,10 @@ Some column description
 * 'Year of construction' :
 * 'Number of rooms' :
 * 'Number of bath rooms' :
+* etc.
 
-# A short EDA can be seen by opening the '03_eda.ipynb' notebook
+# A short EDA can be found by opening the '03_eda.ipynb' notebook
 
 You will see tables like this in it:
 
-
+![](data/../img/sum_table.png)
