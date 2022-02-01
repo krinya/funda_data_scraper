@@ -39,6 +39,6 @@ Some column description:
 
 # A short EDA can be found by opening the '03_eda.ipynb' notebook
 
-You will see tables like this in it:
+You will see tables like this in the notebook:
 
 ![](data/../img/sum_table.png)
