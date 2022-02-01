@@ -42,3 +42,8 @@ Some column description:
 You will see tables like this in the notebook:
 
 ![](data/../img/sum_table.png)
+
+# TODO
+
+* put properties to map
+* create model to estimate prices
